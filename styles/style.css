@@ -28,6 +28,9 @@ body {
     background-color: var(--color2);
 }
 
+
+
+
 main {
     display: flex;
     flex-direction: column;
@@ -93,7 +96,24 @@ content {
 p {
     margin: var(--gutter);
 }
-  
+.main-section {
+
+    justify-content: center;
+}
+.submit {
+
+    justify-content: center;
+}
+ button {
+
+    margin-left: 45%;
+ }
+
+
+input {
+
+    justify-content: center;
+}
 footer {
     position: fixed;
     width: 100%;
