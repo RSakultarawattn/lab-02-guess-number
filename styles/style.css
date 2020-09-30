@@ -28,12 +28,15 @@ body {
     background-color: var(--color2);
 }
 
+
+
 main {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     margin-bottom: calc(var(--footer-height));
+    
 }
 
 section {
@@ -68,8 +71,9 @@ footer {
 
 
 h2 {
-    font-size: 1.8rem;
+    font-size: 4rem;
     font-weight: bold;
+    font-family: fantasy ;
 }
 
 .gutter-right {
@@ -84,16 +88,45 @@ header img {
     height: var(--header-height);
 }
 
+.mess {
 
+    font-size:  20em;
+}em
 
 content {
     width: 80%;
 }
-
-p {
-    margin: var(--gutter);
+.pic {
+    padding-left: 90%;
+    height: 500px;
+    width: 2000px;
 }
-  
+    
+p {
+    margin-left: 15%;
+    
+}
+.main-section {
+
+    justify-content: center;
+}
+
+.submit {
+
+    justify-content: center;
+}
+ button {
+
+    margin-left: 45%;
+ }
+
+ 
+
+input {
+
+    justify-content: center;
+}
+
 footer {
     position: fixed;
     width: 100%;
@@ -104,6 +137,8 @@ footer {
     background-color: var(--color3);
     box-shadow: var(--shadow);
 }
+
+
   
   @keyframes pulse {
     20% {
