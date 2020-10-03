@@ -1,6 +1,6 @@
 // import functions and grab DOM elements
 
-
+import { compareNumbers } from './utils.js'
 
 const userInput = document.getElementById('user-input')
 const submitButton = document.getElementById('submit-button');
