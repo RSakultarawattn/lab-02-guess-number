@@ -1,4 +1,4 @@
-xport function compareNumbers(userGuess, actualNumber) {
+export function compareNumbers(userGuess, actualNumber) {
     if ( guess === correctAnswer) {
         return 0;
     } else if (guess < correctAnswer) {
@@ -6,5 +6,7 @@ xport function compareNumbers(userGuess, actualNumber) {
     } else if (guess > correctAnswer) {
 
     }
-}
+)};
+
+
 
