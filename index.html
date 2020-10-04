@@ -35,22 +35,25 @@
             <content>
                 
             <p>
-                The rules are really quite simple.  You get four guesses to choose the magic number.  With each incorrect answer you will be told if your guess 
+                The rules are really quite simple.  You get four guesses to choose the magic number between 1 and 20.  With each incorrect answer you will be told if your guess 
                 was too high or too low. <br> If you do not guess the correct number in four guesses, that's right, you lose!  Proceed if you DARE!
             </p>
             <hr />
             
                     <button id="submit-button">Submit</button>
-                    <input id="num-guess"type="number">
-                    </section>
-                    
-                    <button id="reset-button">Reset</button>
-                    </section>
-                <div id="user-input"></div>
-                <div>Games Won</div>
-                
-                <div id="low-guess"></div>
+                    <input id="userInput" type="number" min="1" max="20" required>
+                </section>
 
+                    
+                        
+                    <button id="tryAgain">Try Again</button>
+                       
+                    
+                    
+                  
+                
+                    
+                    
                  </section>
                  
     </main>

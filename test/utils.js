@@ -1,12 +1,17 @@
-export function compareNumbers(userGuess, actualNumber) {
-    if ( guess === correctAnswer) {
+
+export function gamePlay(userGuess, compGuess) {
+
+    if(userGuess === compGuess) {
         return 0;
-    } else if (guess < correctAnswer) {
-        return -1;
-    } else if (guess > correctAnswer) {
-
+    
     }
-)};
+    if (userGuess < compGuess) {
+        return -1;
+    }
+    if (userGuess > compGuess) {
+        return 1;
+    }
+}
 
 
-
+    
