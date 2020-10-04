@@ -1,5 +1,5 @@
 
-export function gamePlay(userGuess, compGuess) {
+export function compareNumbers(userGuess, compGuess) {
 
     if(userGuess === compGuess) {
         return 0;
